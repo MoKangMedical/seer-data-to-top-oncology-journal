@@ -1,0 +1,47 @@
+graph TB
+    subgraph Frontend["前端 (React 19 + Tailwind 4)"]
+        Home["首页 Landing"]
+        Dashboard["工作台 Dashboard"]
+        ProjectDetail["项目详情"]
+        Submission["投稿管理"]
+        Pricing["定价页面"]
+        SEERFetch["SEER数据抓取"]
+    end
+
+    subgraph APILayer["API 层 (tRPC 11)"]
+        ProjectRouter["项目路由"]
+        NotificationRouter["通知路由"]
+        PricingRouter["定价路由"]
+        SEERRouter["SEER数据路由"]
+        JAMARouter["JAMA导出路由"]
+    end
+
+    subgraph Services["业务服务层"]
+        LLM["LLM 引擎"]
+        PubMed["PubMed 服务"]
+        DataParser["数据解析器"]
+        ChartGen["图表生成器"]
+        ManuscriptGen["论文生成器"]
+        JAMAGen["JAMA 模板"]
+        DocExport["文档导出"]
+        SubmissionSvc["投稿服务"]
+        NotifSvc["通知服务"]
+        PricingSvc["定价服务"]
+        SEERSvc["SEER数据服务"]
+    end
+
+    subgraph Storage["数据存储"]
+        MySQL["MySQL / TiDB"]
+        S3["AWS S3"]
+    end
+
+    subgraph External["外部服务"]
+        ManusLLM["Manus LLM API"]
+        PubMedAPI["PubMed E-Utils"]
+        OAuth["Manus OAuth"]
+    end
+
+    Frontend --> APILayer
+    APILayer --> Services
+    Services --> Storage
+    Services --> External

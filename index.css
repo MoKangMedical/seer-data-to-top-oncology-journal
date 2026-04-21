@@ -1,0 +1,350 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  /* BMJ Official Teal/Cyan Color Palette - matching journals.bmj.com */
+  --primary: oklch(0.50 0.12 195); /* BMJ Teal #008080 */
+  --primary-foreground: oklch(0.99 0 0);
+  --sidebar-primary: oklch(0.50 0.12 195);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --chart-1: oklch(0.50 0.12 195); /* BMJ Teal */
+  --chart-2: oklch(0.45 0.10 195); /* Darker Teal */
+  --chart-3: oklch(0.60 0.08 195); /* Medium Teal */
+  --chart-4: oklch(0.55 0.15 25); /* Red accent */
+  --chart-5: oklch(0.55 0.12 280); /* Purple accent */
+  --radius: 0.5rem;
+  --background: oklch(0.99 0 0); /* Clean white */
+  --foreground: oklch(0.20 0.02 250); /* Dark text */
+  --card: oklch(0.99 0 0);
+  --card-foreground: oklch(0.20 0.02 250);
+  --popover: oklch(0.99 0 0);
+  --popover-foreground: oklch(0.20 0.02 250);
+  --secondary: oklch(0.97 0.01 195); /* Light teal tint */
+  --secondary-foreground: oklch(0.30 0.05 195);
+  --muted: oklch(0.96 0.01 195);
+  --muted-foreground: oklch(0.50 0.02 250);
+  --accent: oklch(0.94 0.03 195); /* Subtle teal accent */
+  --accent-foreground: oklch(0.30 0.05 195);
+  --destructive: oklch(0.55 0.20 25); /* Red for warnings */
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.90 0.01 195);
+  --input: oklch(0.90 0.01 195);
+  --ring: oklch(0.50 0.12 195);
+  --sidebar: oklch(0.98 0.005 195);
+  --sidebar-foreground: oklch(0.20 0.02 250);
+  --sidebar-accent: oklch(0.94 0.03 195);
+  --sidebar-accent-foreground: oklch(0.20 0.02 250);
+  --sidebar-border: oklch(0.90 0.01 195);
+  --sidebar-ring: oklch(0.50 0.12 195);
+  
+  /* Custom BMJ colors */
+  --bmj-teal: oklch(0.50 0.12 195);
+  --bmj-teal-dark: oklch(0.40 0.10 195);
+  --bmj-teal-light: oklch(0.85 0.05 195);
+  --bmj-cyan: oklch(0.60 0.10 200);
+  --bmj-blue: oklch(0.45 0.10 250);
+  --bmj-red: oklch(0.55 0.18 25);
+  --bmj-purple: oklch(0.50 0.12 280);
+  --bmj-green: oklch(0.55 0.12 145);
+  --bmj-orange: oklch(0.60 0.15 60);
+  --bmj-gray: oklch(0.60 0.02 250);
+}
+
+.dark {
+  --primary: oklch(0.60 0.12 195);
+  --primary-foreground: oklch(0.15 0.02 195);
+  --sidebar-primary: oklch(0.60 0.12 195);
+  --sidebar-primary-foreground: oklch(0.15 0.02 195);
+  --background: oklch(0.141 0.005 285.823);
+  --foreground: oklch(0.85 0.005 65);
+  --card: oklch(0.21 0.006 285.885);
+  --card-foreground: oklch(0.85 0.005 65);
+  --popover: oklch(0.21 0.006 285.885);
+  --popover-foreground: oklch(0.85 0.005 65);
+  --secondary: oklch(0.24 0.006 286.033);
+  --secondary-foreground: oklch(0.7 0.005 65);
+  --muted: oklch(0.274 0.006 286.033);
+  --muted-foreground: oklch(0.705 0.015 286.067);
+  --accent: oklch(0.274 0.006 286.033);
+  --accent-foreground:  oklch(0.92 0.005 65);
+  --destructive: oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.60 0.12 195);
+  --chart-1: oklch(0.60 0.12 195);
+  --chart-2: oklch(0.55 0.10 195);
+  --chart-3: oklch(0.65 0.08 195);
+  --chart-4: oklch(0.60 0.15 25);
+  --chart-5: oklch(0.60 0.12 280);
+  --sidebar: oklch(0.21 0.006 285.885);
+  --sidebar-foreground: oklch(0.85 0.005 65);
+  --sidebar-accent: oklch(0.274 0.006 286.033);
+  --sidebar-accent-foreground:  oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.60 0.12 195);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  /* BMJ-style code block */
+  .code-block {
+    background-color: oklch(0.18 0.02 250);
+    color: oklch(0.92 0.01 250);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    font-family: ui-monospace, monospace;
+    font-size: 0.875rem;
+  }
+
+  /* BMJ-style table */
+  .bmj-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .bmj-table th {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid var(--primary);
+  }
+  .bmj-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .bmj-table tr:hover td {
+    background-color: var(--muted);
+  }
+
+  /* Section headers */
+  .section-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Status badges */
+  .badge-draft {
+    background-color: oklch(0.95 0.08 85);
+    color: oklch(0.45 0.12 85);
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .badge-progress {
+    background-color: oklch(0.92 0.05 195);
+    color: oklch(0.35 0.10 195);
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .badge-completed {
+    background-color: oklch(0.92 0.08 145);
+    color: oklch(0.35 0.12 145);
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  /* Prose styling for manuscript content */
+  .prose-bmj {
+    color: var(--foreground);
+    line-height: 1.75;
+  }
+  .prose-bmj h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  .prose-bmj h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .prose-bmj h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--foreground);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-bmj p {
+    margin-bottom: 1rem;
+  }
+  .prose-bmj ul, .prose-bmj ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  .prose-bmj li {
+    margin-bottom: 0.5rem;
+  }
+  .prose-bmj blockquote {
+    border-left: 4px solid var(--primary);
+    padding-left: 1rem;
+    font-style: italic;
+    color: var(--muted-foreground);
+    margin: 1rem 0;
+  }
+
+  /* Line clamp utilities */
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--muted);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--muted-foreground);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--foreground);
+  }
+
+  /* BMJ Journal cover card styles */
+  .journal-cover-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .journal-cover-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -8px rgba(0, 128, 128, 0.15);
+  }
+
+  /* BMJ Connections gradient background */
+  .bmj-connections-bg {
+    background: linear-gradient(135deg, oklch(0.55 0.10 195) 0%, oklch(0.45 0.12 200) 100%);
+  }
+
+  /* Journal category colors */
+  .journal-clinical { border-color: oklch(0.50 0.12 195); }
+  .journal-research { border-color: oklch(0.55 0.15 280); }
+  .journal-specialty { border-color: oklch(0.55 0.15 25); }
+  .journal-open { border-color: oklch(0.55 0.12 145); }
+}

@@ -1,0 +1,181 @@
+younger than 65 years (24.5% vs 19.0% in 2021). Patients with localized stage disease aged 65 years
+and older had the highest proportion with no treatment. These findings are not surprising, as
+previous study in resected non–small cell lung cancer have shown that limited numbers of older
+patients receive adjuvant chemotherapy, even though adjuvant chemotherapy is recommended.23
+In patients with non–small cell lung cancer in the US, 38.3% of patients with stage IV disease aged 65
+years and older received no treatment.13 Compared with patients with other cancers, patients with
+OPC are likely to be at higher risk of financial toxicity.24 Other reasons for not treating older patients
+with OPC may include comorbidities, balancing preferences for length of life with its quality, low
+Karnofsky Index, and older age.25 Undertreatment of female patients was another noteworthy trend
+observed, with 28.1% of female patients vs 20.2% of male patients receiving no treatment in 2021.
+Gender disparities in enrollment of women on clinical trials and their undertreatment have been
+reported, but root causes are poorly understood.26 Since the SEER-22 (excluding Illinois and
+Massachusetts) database only includes first-course radiation, chemotherapy, and surgery, some
+patients classified as no treatment may have received other treatments (eg, immunotherapy).
+
+Limitations
+This study has limitations that should be mentioned. Aside from the retrospective nature, the
+SEER-22 (excluding Illinois and Massachusetts) database does not include the HPV status to
+distinguish between HPV-positive and HPV-negative OPC. A further caveat of this study is that the
+treatment and staging systems are not classified as typically done in the clinic. Furthermore,
+treatment factors, such as radiation therapy techniques, chemotherapy regimens, and surgery detail,
+are unavailable and may have confounded the results. Nevertheless, our report is noteworthy
+because it provides an important and comprehensive update of epidemiologic information for OPC.
+
+Conclusions
+In this cross-sectional study of OPC, between 2006 and 2021, the incidence of OPC in the US
+increased rapidly among male patients, particularly among those aged 65 years and older. Although
+the distribution of treatment was similar through the assessed years, increased limited-duration
+prevalence and higher than previously reported survival were observed.
+
+ARTICLE INFORMATION
+Accepted for Publication: August 19, 2025.
+Published: October 24, 2025. doi:10.1001/jamanetworkopen.2025.39258
+Open Access: This is an open access article distributed under the terms of the CC-BY License. © 2025 Cao C et al.
+JAMA Network Open.
+Corresponding Author: Nancy Y. Lee, MD, Department of Radiation Oncology, Memorial Sloan Kettering Cancer
+Center, 1275 York Ave, PO Box 22, New York, NY 10065 (leen2@mskcc.org).
+Author Affiliations: Department of Radiation Oncology, Zhejiang Cancer Hospital, Hangzhou Institute of
+Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang, China (Cao); Department of Radiation Oncology,
+Memorial Sloan Kettering Cancer Center, New York, New York (Cao, Zakeri, Dee, Riaz, Shamseddine, Yu, Ma,
+Treechairusame, N. Y. Lee); Department of Radiation Oncology, University of Texas MD Anderson Cancer Center,
+Houston (A. Lee); Department of Therapeutic Radiology, Yale University School of Medicine, New Haven,
+Connecticut (Kang); Department of Radiation Oncology, SUNY Downstate Health Sciences University, Brooklyn,
+New York (Yacoub); Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York (Cohen,
+
+JAMA Network Open. 2025;8(10):e2539258. doi:10.1001/jamanetworkopen.2025.39258 (Reprinted)
+
+Downloaded from jamanetwork.com by guest on 01/20/2026
+
+October 24, 2025
+
+8/10
+
+JAMA Network Open | Oncology
+
+Updated Estimates of Patients With Oropharyngeal Cancer in the US
+
+Cracchiolo, R. J. Wong); Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York
+(W. Wong, Dunn, Sherman).
+Author Contributions: Drs Cao and Lee had full access to all of the data in the study and take responsibility for the
+integrity of the data and the accuracy of the data analysis.
+Concept and design: Cao, A. Lee, Dee, Cracchiolo, N. Y. Lee.
+Acquisition, analysis, or interpretation of data: Cao, Kang, Yacoub, Zakeri, Dee, Riaz, Shamseddine, Yu, Ma,
+Treechairusame, Cohen, R. J. Wong, W. Wong, Dunn, Sherman.
+Drafting of the manuscript: Cao, Yacoub.
+Critical review of the manuscript for important intellectual content: A. Lee, Kang, Yacoub, Zakeri, Dee, Riaz,
+Shamseddine, Yu, Ma, Treechairusame, Cohen, Cracchiolo, R. J. Wong, W. Wong, Dunn, Sherman, N. Y. Lee.
+Statistical analysis: Cao, Zakeri.
+Administrative, technical, or material support: Dunn.
+Supervision: A. Lee, Kang, Dee, Shamseddine, Ma, Cohen, N. Y. Lee.
+Conflict of Interest Disclosures: Dr Dee reported receiving a Young Investigator Award from the Prostate Cancer
+Foundation during the conduct of the study. Dr Riaz reported receiving grants from Pfizer, REPARE Therapeutics,
+and Archer, and personal fees from AstraZeneca outside the submitted work. Dr Dunn reported serving on the
+advisory boards of Merck and Regeneron and receiving research funding from Regeneron, Eisai, and CUE
+Biopharma outside the submitted work. No other disclosures were reported.
+Funding/Support: This research was funded in part through the National Institutes of Health, National Cancer
+Institute Cancer Center Support grant P30 CA008748.
+Role of the Funder/Sponsor: The funder had no role in the design and conduct of the study; collection,
+management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and
+decision to submit the manuscript for publication.
+Data Sharing Statement: See Supplement 2.
+REFERENCES
+1. Zumsteg ZS, Luu M, Rosenberg PS, et al. Global epidemiologic patterns of oropharyngeal cancer incidence
+trends. J Natl Cancer Inst. 2023;115(12):1544-1554. doi:10.1093/jnci/djad169
+2. Kang JJ, Yu Y, Chen L, et al. Consensuses, controversies, and future directions in treatment deintensification for
+human papillomavirus-associated oropharyngeal cancer. CA Cancer J Clin. 2023;73(2):164-197. doi:10.3322/
+caac.21758
+3. Damgacioglu H, Sonawane K, Chhatwal J, et al. Long-term impact of HPV vaccination and COVID-19 pandemic
+on oropharyngeal cancer incidence and burden among men in the USA: a modeling study. Lancet Reg Health Am.
+2022;8:100143. doi:10.1016/j.lana.2021.100143
+4. Rodriguez AM, Do TQN, Goodman M, Schmeler KM, Kaul S, Kuo YF. Human papillomavirus vaccine
+interventions in the U.S.: a systematic review and meta-analysis. Am J Prev Med. 2019;56(4):591-602. doi:10.
+1016/j.amepre.2018.10.033
+5. Youssef I, Yoon J, Mohamed N, et al. Toxicity profiles and survival outcomes among patients with nonmetastatic
+oropharyngeal carcinoma treated with intensity-modulated proton therapy vs intensity-modulated radiation
+therapy. JAMA Netw Open. 2022;5(11):e2241538. doi:10.1001/jamanetworkopen.2022.41538
+6. National Comprehensive Cancer Network. NCCN guidelines: head and neck cancers. Accessed July 26, 2024.
+https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1437
+7. Damgacioglu H, Sonawane K, Zhu Y, et al. Oropharyngeal cancer incidence and mortality trends in all 50 states
+in the US, 2001-2017. JAMA Otolaryngol Head Neck Surg. 2022;148(2):155-165. doi:10.1001/jamaoto.2021.3567
+8. Zumsteg ZS, Cook-Wiens G, Yoshida E, et al. Incidence of oropharyngeal cancer among elderly patients in the
+United States. JAMA Oncol. 2016;2(12):1617-1623. doi:10.1001/jamaoncol.2016.1804
+9. National Cancer Institute. Surveillance, Epidemiology, and End Results Program. Accessed September 19, 2025.
+https://seer.cancer.gov
+10. National Cancer Institute. Surveillance, Epidemiology, and End Results Program. Head and neck: definition of
+anatomic sites within the head and neck. Accessed September 19, 2025. https://seer.cancer.gov/tools/ssm/SSM2018HEAD-AND-NECK.pdf
+11. National Cancer Institute. Surveillance, Epidemiology, and End Results Program. SEER*Stat tutorials. January
+2025. Accessed September 19, 2025. https://seer.cancer.gov/seerstat/tutorials/
+
+JAMA Network Open. 2025;8(10):e2539258. doi:10.1001/jamanetworkopen.2025.39258 (Reprinted)
+
+Downloaded from jamanetwork.com by guest on 01/20/2026
+
+October 24, 2025
+
+9/10
+
+JAMA Network Open | Oncology
+
+Updated Estimates of Patients With Oropharyngeal Cancer in the US
+
+12. Tsai YS, Chen YC, Chen TI, et al. Incidence trends of oral cavity, oropharyngeal, hypopharyngeal and laryngeal
+cancers among males in Taiwan, 1980-2019: a population-based cancer registry study. BMC Cancer. 2023;23
+(1):213. doi:10.1186/s12885-023-10651-6
+13. Ganti AK, Klein AB, Cotarla I, Seal B, Chou E. Update of incidence, prevalence, survival, and initial treatment in
+patients with non–small cell lung cancer in the US. JAMA Oncol. 2021;7(12):1824-1832. doi:10.1001/jamaoncol.
+2021.4932
+14. Palmer TJ, Kavanagh K, Cuschieri K, et al. Invasive cervical cancer incidence following bivalent human
+papillomavirus vaccination: a population-based observational study of age at immunization, dose, and deprivation.
+J Natl Cancer Inst. 2024;116(6):857-865. doi:10.1093/jnci/djad263
+15. Deshmukh AA, Suk R, Shiels MS, et al. Recent trends in squamous cell carcinoma of the anus incidence and
+mortality in the United States, 2001-2015. J Natl Cancer Inst. 2020;112(8):829-838. doi:10.1093/jnci/djz219
+16. Lauritzen BB, Grønlund MW, Jakobsen KK, et al. Epidemiological trends and survival of oropharyngeal cancer
+in a high HPV-prevalent area: a Danish population-based study from 2000 to 2020. Int J Cancer. 2024;155(12):
+2169-2179. doi:10.1002/ijc.35099
+17. Win Myint TT, McIvor N, Douglas R, Tin Tin S, Elwood M. Incidence, trends, and survival of oropharyngeal
+squamous cell cancer in Aotearoa New Zealand, 2006-2020. Cancer Epidemiol. 2023;85:102393. doi:10.1016/j.
+canep.2023.102393
+18. Chaturvedi AK, Engels EA, Pfeiffer RM, et al. Human papillomavirus and rising oropharyngeal cancer incidence
+in the United States. J Clin Oncol. 2023;41(17):3081-3088. doi:10.1200/JCO.22.02625
+19. GBD 2021 Demographics Collaborators. Global age-sex-specific mortality, life expectancy, and population
+estimates in 204 countries and territories and 811 subnational locations, 1950-2021, and the impact of the
+COVID-19 pandemic: a comprehensive demographic analysis for the Global Burden of Disease Study 2021. Lancet.
+2024;403(10440):1989-2056. doi:10.1016/S0140-6736(24)00476-8
+20. Pace GM, Costantino A, Festa BM, et al. Oropharyngeal squamous cell carcinoma: treatment (de-)
+intensification? Oral Oncol. 2024;153:106299. doi:10.1016/j.oraloncology.2022.106299
+21. Cracchiolo JR, Baxi SS, Morris LG, et al. Increase in primary surgical treatment of T1 and T2 oropharyngeal
+squamous cell carcinoma and rates of adverse pathologic features: National Cancer Data Base. Cancer. 2016;122
+(10):1523-1532. doi:10.1002/cncr.29938
+22. Cracchiolo JR, Roman BR, Kutler DI, Kuhel WI, Cohen MA. Adoption of transoral robotic surgery compared
+with other surgical modalities for treatment of oropharyngeal squamous cell carcinoma. J Surg Oncol. 2016;114(4):
+405-411. doi:10.1002/jso.24353
+23. Ganti AK, Williams CD, Gajra A, Kelley MJ. Effect of age on the efficacy of adjuvant chemotherapy for resected
+non-small cell lung cancer. Cancer. 2015;121(15):2578-2585. doi:10.1002/cncr.29360
+24. Noel CW, Hueniken K, Forner D, et al. Association of household income at diagnosis with financial toxicity,
+health utility, and survival in patients with head and neck cancer. JAMA Otolaryngol Head Neck Surg. 2023;149
+(1):63-70. doi:10.1001/jamaoto.2022.3755
+25. Matos LL, Sanabria A, Robbins KT, et al. Management of older patients with head and neck cancer:
+a comprehensive review. Adv Ther. 2023;40(5):1957-1974. doi:10.1007/s12325-023-02460-x
+26. Benchetrit L, Torabi SJ, Tate JP, et al. Gender disparities in head and neck cancer chemotherapy clinical trials
+participation and treatment. Oral Oncol. 2019;94:32-40. doi:10.1016/j.oraloncology.2019.05.009
+SUPPLEMENT 1.
+eTable 1. Baseline characteristics of patients diagnosed with oropharyngeal cancer from 2006 to 2021 in 22 SEER
+(excluding IL and MA) registries
+eTable 2. Incidence of oropharyngeal cancer in the US, 2006-2021
+eTable 3. Incidence of oropharyngeal cancer in the US by stage (overall and age stratified), 2006-2021
+eTable 4. 10-Year prevalence of oropharyngeal cancer in the US
+eTable 5. Initial treatment for oropharyngeal cancer in the US
+eTable 6. Initial treatment by stage, age and rural-urban continuum code
+SUPPLEMENT 2.
+Data Sharing Statement
+
+JAMA Network Open. 2025;8(10):e2539258. doi:10.1001/jamanetworkopen.2025.39258 (Reprinted)
+
+Downloaded from jamanetwork.com by guest on 01/20/2026
+
+October 24, 2025
+
+10/10
+
+
