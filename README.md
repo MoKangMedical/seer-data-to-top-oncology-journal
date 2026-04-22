@@ -1,23 +1,23 @@
-# SEER → 顶级肿瘤学期刊
+# SEER数据到顶级肿瘤学期刊
 
-> AI自动分析SEER（美国癌症数据库）数据，生成可投稿的科研论文
+AI驱动的SEER数据分析 — 美国癌症数据到顶级期刊
 
-## 🎯 价值
+## 项目目标
 
-传统：手动分析SEER数据 → 写论文 → **6-12个月**
-我们：AI全流程 → 初稿输出 → **72小时**
+将美国SEER（监测流行病学和最终结果）数据库数据转化为顶级肿瘤学期刊发表的研究论文。
 
-## 📐 理论
+## 核心能力
 
-> **Harness理论**：Harness比模型更重要，性能提升64%。本项目Harness = 数据清理→统计分析→图表→论文撰写→投稿检查。
+- SEER*Stat数据自动处理
+- 生存分析（Kaplan-Meier/Cox回归）
+- 年龄-时期-队列分析
+- 论文初稿自动生成
 
-> **红杉论点**：从卖工具到卖结果。交付可投稿的论文，而非统计软件。
+## 快速开始
 
-## Quick Start
+    git clone https://github.com/MoKangMedical/seer-data-to-top-oncology-journal.git
+    cd seer-data-to-top-oncology-journal
+    pip install -r requirements.txt
+    python src/main.py --cancer "breast" --outcome "survival"
 
-```bash
-pip install pandas lifelines matplotlib
-python scripts/analyze.py --input data/seer.csv
-```
-
-## 📄 MIT License
+MIT License
